@@ -1,0 +1,36 @@
+body{
+    background-color: #30343F;
+    margin:1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  letter-spacing: 2px;
+  color:#FAF0E6
+}
+
+button{
+    color: #7796CB
+}
+
+.header{
+    height:5rem;
+}
+.logo{
+    height: 10rem;
+    width:10rem;
+    margin-top: -2rem;
+}
+
+.container{
+    display:flex;
+}
+
+.map{
+    height: 30rem;
+}

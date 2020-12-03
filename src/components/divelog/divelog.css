@@ -1,0 +1,169 @@
+.recentDives{
+    width: 35rem;
+    overflow-y: scroll;
+    height:20rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
+    margin-bottom: 4rem;
+    padding:1rem;
+    background-color: rgb(77,76,76,.7);
+    border-radius: 5px;
+    position: relative;
+}
+
+.recentDivesTop{
+    display: flex;
+    flex-direction: row;
+}
+
+#logListItem{
+    border-bottom: 1px solid white;
+}
+
+.viewAllBtn{
+    margin-left: 17rem;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: #7796CB;
+}
+.addLogBtn, a{
+margin-left: 1rem;
+text-decoration: none;
+
+}
+.addLogBtn{
+    color: #FAF0E6;
+    font-weight: 900;
+}
+
+.log-link{
+    text-decoration: none;
+    color:black;
+  
+  
+    
+}
+.log-link-all{
+    text-decoration: none;
+    color:black;
+    height:10rem;
+    width: 10rem;
+    background-color: rgb(77,76,76,.7);
+    margin-top: 1rem;
+    padding:3px;
+    text-align: center;
+}
+
+.allDiveLogs{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.diveLogDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detailsLeft{
+    margin:2rem;
+    width:100%;
+    height:28rem;
+    background-image: url("../images/LogImg.png");
+    background-size: 100%;
+    background-position: center;
+    
+}
+.detailsRight{
+    display: flex;
+    width: 100%;
+    border-top: 1px white solid;
+}
+
+
+.dlSi, .dlPgEnter, .dlPgExit, .dlBt, .dlMaxDepth, .dlAvgDepth{
+    position: relative;
+}
+
+.dlSi{
+    top: 70px;
+    left: 8px;
+}
+
+.dlPgEnter{
+    top: 2rem;
+    left: 9rem;
+}
+
+.dlBt{
+    top: 44%;
+    left: 40%;
+}
+
+.dlAvgDepth{
+    left:7rem;
+}
+.dlMaxDepth{
+    bottom: -155px;
+    left: 250px;
+
+}
+
+.dlPgExit{
+    left: 70%;
+}
+
+
+.infoContent{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:auto;
+    padding: 2rem;
+}
+
+.tankInfo{
+    background-color: rgb(77,76,76,.7);
+    width:100%;
+    border-radius: 5px;
+    padding:1rem;
+    
+}
+
+.suitInfo{
+    width:100%;
+    margin-top: 2rem;
+    padding:1rem;
+    border-radius: 5px;
+    background-color: rgb(77,76,76,.7);
+    
+}
+
+.weatherComments{
+    width:50%;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding:1rem;
+    background-color: rgb(77,76,76,.7);
+    border-radius: 5px;
+    
+}
+
+.wContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.buddyInfo{
+    display: flex;
+    justify-content: space-around;
+    margin:1rem;
+    background-color: rgb(77,76,76,.7);
+    border-radius: 5px;
+}
