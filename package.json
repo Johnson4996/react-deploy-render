@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-google-maps/api": "^1.13.0",
     "concurrently": "^4.1.0",
+    "json-server": "^0.12.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
-    "json-server": "^0.12.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.5"
   },
   "scripts": {
     "start": "npm run build && npm run json-serve",
