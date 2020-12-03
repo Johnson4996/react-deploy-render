@@ -1,3 +1,149 @@
 {
-  "replaceme": []
+  "divelogs": [
+    {
+      "id": 1,
+      "title": "Diving in South Africa",
+      "date": "2020-09-01",
+      "location": "Cape Town, South Africa",
+      "surfaceInterval": "00:00",
+      "pressureGroupEnter": "N/A",
+      "pressureGroupExit": "G",
+      "bottomTime": "45:54",
+      "maxDepth": "65m",
+      "avgDepth": "45m",
+      "airEnter": "2000psi",
+      "airExit": "550psi",
+      "tankSize": "80",
+      "tankTypeId": 2,
+      "weight": "40lbs",
+      "suitTypeId": 2,
+      "weatherConditions": "Great weather, clear skies all day.",
+      "comments": "Water was warm, visibility was great and saw a ton of aquatic life!",
+      "verifyName": "John Johnson",
+      "verifyCert": "12345",
+      "verifyType": "Buddy",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Diving in Bahamas",
+      "date": "2020-09-03",
+      "location": "Nassau, Bahamas",
+      "surfaceInterval": "00:00",
+      "pressureGroupEnter": "N/A",
+      "pressureGroupExit": "D",
+      "bottomTime": "30:56",
+      "maxDepth": "80m",
+      "avgDepth": "60m",
+      "airEnter": "2000",
+      "airExit": "250",
+      "tankSize": "80",
+      "tankTypeId": 2,
+      "suitTypeId": 1,
+      "weatherConditions": "Sunny and warm. Beautiful weather for diving.",
+      "comments": "Saw a ton of fish and even a stingray! Lots of movement down there today!",
+      "verifyName": "Frank Ocean",
+      "verifyCert": "12345",
+      "verifyType": "Buddy",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Diving in Cleveland",
+      "date": "2014-07-24",
+      "location": "Cleveland, Ohio",
+      "surfaceInterval": "00:00",
+      "pressureGroupEnter": "N/A",
+      "pressureGroupExit": "B",
+      "bottomTime": "50:43",
+      "maxDepth": "45m",
+      "avgDepth": "30m",
+      "airEnter": "2000",
+      "airExit": "500",
+      "tankSize": "80",
+      "tankTypeId": 2,
+      "weight": "8",
+      "suitTypeId": 3,
+      "weatherConditions": "Partly Cloudy for most of the day. A little chilly in the morning ",
+      "comments": "Water Temp was quite chilly below 30m. Visibility was poor, water was very cloudy. ",
+      "verifyName": "Tim Numbers",
+      "verifyCert": "12345",
+      "verifyType": "Buddy",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "Martha's Quarry",
+      "date": "2020-09-23",
+      "location": "Nashville, TN",
+      "surfaceInterval": "45:50",
+      "pressureGroupEnter": "N/A",
+      "pressureGroupExit": "C",
+      "bottomTime": "50:32",
+      "maxDepth": "30",
+      "avgDepth": "25",
+      "airEnter": "2000",
+      "airExit": "750",
+      "tankSize": "80",
+      "tankTypeId": 2,
+      "weight": "13",
+      "suitTypeId": 3,
+      "weatherConditions": "Nice weather. A bit cloudy in the morning but by afternoon we had clear skies in the 70s",
+      "comments": "Great visibility, cold water and was really neat seeing the school bus!",
+      "verifyName": "Andy Thomas",
+      "verifyCert": "12345",
+      "verifyType": "Buddy",
+      "userId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "sam@sam.com",
+      "password": "sam"
+    }
+  ],
+  "tanktypes": [
+    {
+      "id": 1,
+      "name": "Steel"
+    },
+    {
+      "id": 2,
+      "name": "Aluminium"
+    },
+    {
+      "id": 3,
+      "name": "Pony"
+    }
+  ],
+  "suittypes": [
+    {
+      "id": 1,
+      "name": "Skin"
+    },
+    {
+      "id": 2,
+      "name": "Shorty Wetsuit"
+    },
+    {
+      "id": 3,
+      "name": "Full Wetsuit"
+    },
+    {
+      "id": 4,
+      "name": "Semi-Dry Suit"
+    },
+    {
+      "id": 5,
+      "name": "Dry Suit"
+    }
+  ],
+  "wishlist": [
+    {
+      "location": "Bahamas",
+      "userId": 1,
+      "id": 1
+    }
+  ]
 }
