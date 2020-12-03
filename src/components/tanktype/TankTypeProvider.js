@@ -10,7 +10,7 @@ export const TankTypeProvider = (props) => {
     const [tankTypes, setTankTypes] = useState([])
 
     const getTankTypes = () => {
-        return fetch("https://my-json-server.typicode.com/johnson4996/scubalog-api/tanktypes")
+        return fetch("https://ScubaLog.onrender.com/api/tanktypes")
             .then(res => res.json())
             .then(setTankTypes)
     }
