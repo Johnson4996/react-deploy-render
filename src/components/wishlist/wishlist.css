@@ -1,22 +1,33 @@
 .wish--info{
     display:flex;
+    justify-content: space-between;
     
 }
 
 .wishlist--title{
     display: flex;
+    justify-content: space-between;
 }
 
-#addWishBtn, #deleteWishBtn{
-    cursor: pointer;
+.wishBtn{
+    color:white;
+    align-self: center;
 }
 
 .wishList{
     width: 25rem;
     overflow-y: scroll;
-    height:10rem;
+    height:20rem;
     margin-left: 1rem;
-    padding:1rem;
+    padding:0px 7px 0px 7px;
     background-color: rgb(77,76,76,.7);
     border-radius: 5px;
+}
+
+.addWishLink{
+    align-self: center;
+}
+
+.submitWish{
+    margin-top:1rem;
 }

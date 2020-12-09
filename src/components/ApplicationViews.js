@@ -10,7 +10,7 @@ import { TankTypeProvider } from "./tanktype/TankTypeProvider"
 import { WishlistProvider } from "./wishlist/WishlistProvider"
 import { WishListRender } from "./wishlist/WishRender"
 import { WishListForm } from "./wishlist/WishListForm"
-import { MapRender } from "./map/MapRender"
+
 
 
 
@@ -33,7 +33,7 @@ export const ApplicationViews = () => {
                                     <div className="top-content">
                                         
                                         <DiveLogList />
-                                        <MapRender />
+                                        
                                     </div>
                                     <div className="bottom-content">
                                         <WishListRender />

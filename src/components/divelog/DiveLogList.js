@@ -5,6 +5,8 @@ import React, { useContext, useEffect } from "react"
 import { LogContext } from "./DiveLogProvider"
 import "./divelog.css"
 import { Link } from "react-router-dom"
+import ViewComfyIcon from '@material-ui/icons/ViewComfy';
+import AddCircleIcon from '@material-ui/icons/AddCircle';
 
 
 
@@ -20,16 +22,16 @@ export const DiveLogList = () => {
             <div className="recentDives">
                 <div className="recentDivesTop">
                     <h3>Recent Dives</h3>
-                    <Link to={{
+                    <Link className="viewAllBtnLink" to={{
                         pathname: `/divelog/all`,
                     }}>
-                        <p className="viewAllBtn">View All</p>
+                        <ViewComfyIcon className="viewAllBtn"/>
                     </Link>
 
-                    <Link to={{
+                    <Link className="viewAllBtnLink" to={{
                         pathname: `/divelog/new`,
                     }}>
-                        <p className="addLogBtn">+</p>
+                        <AddCircleIcon className="addNewBtn"/>
                     </Link>
 
                 </div>

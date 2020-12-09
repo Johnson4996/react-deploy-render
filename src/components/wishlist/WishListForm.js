@@ -22,10 +22,11 @@ export const WishListForm = (props)=> {
 
 return(
     <form>
-        <h2 className="wishFormTitle">Where would you like to go</h2>
+        <h2 className="wishFormTitle">Where would you like to go?</h2>
         <div className="form-group">
-                <label htmlFor="location">Location: </label>
+                
                 <input
+                    placeholder="Enter the Location"
                     type="text"
                     id="wishLocation"
                     ref={location}
@@ -42,6 +43,14 @@ return(
                 }
             }
             className="submitWish"> Add to Wishlist </button>
+            <button
+            onClick={
+                evt => {
+                    evt.preventDefault() 
+                    props.history.push("/")
+                }
+            }
+            className="submitWish"> Cancel </button>
     </form>
 )
 

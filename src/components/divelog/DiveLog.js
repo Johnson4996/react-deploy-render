@@ -4,7 +4,6 @@
 
 
 import React, { useContext } from "react"
-import { Link } from "react-router-dom"
 import { SuitContext } from "../suittype/SuitTypeProvider"
 import { TankContext } from "../tanktype/TankTypeProvider"
 
@@ -19,10 +18,6 @@ export const DiveLog = ({ diveLog }) => {
 
     return (
         <>
-            <Link className="log-link"
-                to={{ pathname: `/`, }}>
-                <button>Dashboard</button>
-            </Link>
             <div className="diveLogDetailsContainer">
                 <article className="detailsLeft">
                     <h2 className="dlTitle">{diveLog.title}</h2>

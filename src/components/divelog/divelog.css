@@ -5,15 +5,21 @@
     margin-left: 1rem;
     margin-right: 5rem;
     margin-bottom: 4rem;
-    padding:1rem;
     background-color: rgb(77,76,76,.7);
     border-radius: 5px;
     position: relative;
 }
 
+.logListContainer{
+    padding-left: 1rem;
+}
+
 .recentDivesTop{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding:0px 7px 0px 7px;
+    
 }
 
 #logListItem{
@@ -26,6 +32,11 @@
     border: none;
     text-decoration: underline;
     color: #7796CB;
+    
+}
+
+.viewAllBtnLink{
+    align-self: center;
 }
 .addLogBtn, a{
 margin-left: 1rem;
@@ -38,21 +49,46 @@ text-decoration: none;
 }
 
 .log-link{
+    cursor: pointer;
     text-decoration: none;
-    color:black;
-  
-  
+    color:white;
+    align-self: center;
     
 }
-.log-link-all{
+
+.plusIcon{
+    color: white;
+}
+
+
+
+.add-log-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-decoration: none;
     color:black;
-    height:10rem;
-    width: 10rem;
+    height:15rem;
+    width: 15rem;
     background-color: rgb(77,76,76,.7);
     margin-top: 1rem;
     padding:3px;
     text-align: center;
+}
+.log-link-all{
+    text-decoration: none;
+    color:black;
+    height:15rem;
+    width: 15rem;
+    background-color: rgb(77,76,76,.7);
+    margin-top: 1rem;
+    padding:3px;
+    text-align: center;
+    
+}
+
+.logText{
+    align-self: center;
 }
 
 .allDiveLogs{
@@ -77,6 +113,7 @@ text-decoration: none;
     background-position: center;
     
 }
+
 .detailsRight{
     display: flex;
     width: 100%;
@@ -166,4 +203,44 @@ text-decoration: none;
     margin:1rem;
     background-color: rgb(77,76,76,.7);
     border-radius: 5px;
+}
+
+.form-group{
+    
+    width: 20rem;
+    color:white;
+    margin-right:2rem;
+}
+
+.diveLogForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.btnAddLog{
+    background-color: rgb(77,76,76,.7);
+    width:20rem;
+    height:4rem;
+    color: #53a653;
+    align-self: baseline;
+}
+
+.addNewBtn{
+    color: white;
+}
+
+.backToDash{
+    display: flex;  
+    flex-direction: row;
+}
+
+.editDelContainer{
+    width: 50%;
+    display: flex;
+   margin-top:2rem;
+}
+
+.delBtn{
+    margin-left: 2rem;
 }

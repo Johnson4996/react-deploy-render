@@ -1,6 +1,6 @@
 export default {
     mapsKey: 'AIzaSyCB_EW3RlzQLyuQNgVN0ShLqcoCrEK2ptI',
-    posKey: 'ff0fcd042ab984146219abc275c71e4b',
+    geoKey: 'pk.aa1cd240547287f4336210a11763f6db',
 };
 
 

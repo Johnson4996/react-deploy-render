@@ -12,7 +12,7 @@ export const Register = (props) => {
     const passwordDialog = useRef()
 
     const existingUserCheck = () => {
-        return fetch(`https://ScubaLog.onrender.com/api/users?email=${email.current.value}`)
+        return fetch(`http://localhost:3000/users?email=${email.current.value}`)
             .then(_ => _.json())
             .then(user => !!user.length)
     }
@@ -25,7 +25,7 @@ export const Register = (props) => {
                 .then(() => {
                     
                     //POST new user to the database
-                    fetch("https://ScubaLog.onrender.com/api/users", {
+                    fetch("http://localhost:3000/users", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json"

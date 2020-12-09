@@ -13,7 +13,7 @@ export const Login = props => {
 
     //check to see if user already exists
     const existingUserCheck = () => {
-        return fetch(`https://ScubaLog.onrender.com/api/users?email=${email.current.value}`)
+        return fetch(`http://localhost:3000/users?email=${email.current.value}`)
             .then(_ => _.json())
             .then(user => user.length ? user[0] : false)
     }

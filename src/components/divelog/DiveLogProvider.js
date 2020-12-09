@@ -9,13 +9,13 @@ export const DiveLogProvider = (props) => {
     const [diveLogs, setDiveLogs] = useState([])
 
     const getDiveLogs = () => {
-        return fetch("https://ScubaLog.onrender.com/api/divelogs")
+        return fetch("http://localhost:3000/divelogs")
             .then(res => res.json())
             .then(setDiveLogs)
     }
 
     const addDiveLog = (diveLog) => {
-        return fetch("https://ScubaLog.onrender.com/api/divelogs", {
+        return fetch("http://localhost:3000/divelogs", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -26,14 +26,14 @@ export const DiveLogProvider = (props) => {
     }
 
     const deleteLog = (logId) => {
-        return fetch(`https://ScubaLog.onrender.com/api/divelogs/${logId}`, {
+        return fetch(`http://localhost:3000/divelogs/${logId}`, {
             method: "DELETE"
         })
             .then(getDiveLogs)
     }
 
     const editLog = (diveLog) => {
-        return fetch(`https://ScubaLog.onrender.com/api/divelogs/${diveLog.id}`, {
+        return fetch(`http://localhost:3000//divelogs/${diveLog.id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
