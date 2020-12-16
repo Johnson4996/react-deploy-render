@@ -12,7 +12,7 @@ export const SuitTypeProvider = (props) => {
     const [suitTypes, setSuitTypes] = useState([])
 
     const getSuitTypes = () => {
-        return fetch("http://localhost:3000/suittypes")
+        return fetch("https://scubalog.onrender.com/api/suittypes")
             .then(res => res.json())
             .then(setSuitTypes)
     }

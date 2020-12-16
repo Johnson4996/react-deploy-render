@@ -10,13 +10,13 @@ export const WishlistProvider = (props) => {
     const [wishes, setWishes] = useState([])
 
     const getWishes = () => {
-        return fetch("http://localhost:3000/wishlist")
+        return fetch("https://scubalog.onrender.com/api/wishlist")
             .then(res => res.json())
             .then(setWishes)
     }
 
     const addWish = (wish) => {
-        return fetch("http://localhost:3000/wishlist", {
+        return fetch("https://scubalog.onrender.com/api/wishlist", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -26,7 +26,7 @@ export const WishlistProvider = (props) => {
             .then(getWishes)
     }
     const deleteWish = (wishId) => {
-        return fetch(`http://localhost:3000/wishlist/${wishId}`, {
+        return fetch(`https://scubalog.onrender.com/api/wishlist/${wishId}`, {
             method: "DELETE"
         })
             .then(getWishes)

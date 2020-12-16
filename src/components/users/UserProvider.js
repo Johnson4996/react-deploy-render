@@ -10,13 +10,13 @@ export const UserProvider = (props) => {
     const [users, setUsers] = useState([])
 
     const getUsers = () => {
-        return fetch("http://localhost:3000/users")
+        return fetch("https://scubalog.onrender.com/api/users")
             .then(res => res.json)
             .then(setUsers)
     }
 
     const addUser = (user) => {
-        return fetch("http://localhost:3000/users", {
+        return fetch("https://scubalog.onrender.com/api/users", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
